@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(23, 68, 23);
+}
+ul ul {
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    padding-top: 14px;
+    margin-left: -65px;
+}
+ul li:hover ul{
+    display: block;
+}
+ul ul li{
+    background-color: greenyellow;
+    margin-bottom: 4px;
+}
+ul ul li:hover{
+    color: rgb(129, 185, 129);
+    background-color: rgb(8, 10, 4);
+    transition-duration: 1s;
+    
+}
