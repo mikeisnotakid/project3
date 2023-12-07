@@ -96,13 +96,16 @@ a{
         display:block;
         text-align: center;
     }
+    
+    .container{
+        padding-top: 2px;
+    
+    }
     .header-container{
         position: relative;
-        width: 100%;
+
     }
-    .container{
-        padding-top: 40px;
-    }
+    
     nav a{
         display: block;
 
