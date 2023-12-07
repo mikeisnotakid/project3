@@ -81,7 +81,7 @@ a{
     display: none;
 }
 
-@media(max-width:768px) {
+/* @media(max-width:1000px) {
     .card {
         width: 45%;
     }
@@ -89,15 +89,16 @@ a{
     .hide-desktop-only {
         display: block;
     }
-}
+} */
 
-@media(max-width:400px) {
+@media(max-width:830px) {
     header{
         display:block;
         text-align: center;
     }
     .header-container{
         position: relative;
+        width: 100%;
     }
     .container{
         padding-top: 40px;
