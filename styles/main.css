@@ -98,7 +98,7 @@ a{
     }
     
     .container{
-        padding-top: 240px;
+        padding-top: 300px;
     
     }
     
@@ -113,7 +113,11 @@ a{
         margin-left: 0;
     }
     .card {
-        width: 100%;
+        width: 45%;
+        margin-bottom: 100px;
+    }
+    .hide-desktop-only{
+        display: block;
     }
 
 }
