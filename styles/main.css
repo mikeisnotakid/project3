@@ -91,7 +91,7 @@ a{
     }
 } */
 
-@media(max-width:830px) {
+@media(max-width:900px) {
     header{
         display:block;
         text-align: center;
@@ -112,9 +112,12 @@ a{
     .my-button{
         margin-left: 0;
     }
+    .card img {
+        
+    }
     .card {
         width: 45%;
-        margin-bottom: 100px;
+         margin-bottom: 80px; 
     }
     .hide-desktop-only{
         display: block;
