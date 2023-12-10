@@ -8,10 +8,10 @@ body {
     margin-bottom: 40px;
     position: fixed;
     width: 100%;
-    
+
 }
 
-header {
+header .desktop_menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,23 +19,41 @@ header {
     margin: 0 auto;
     min-height: 100px;
 }
-.logo{
+
+.logo {
     font-size: 32px;
     color: white;
     font-family: fantasy;
     text-transform: uppercase;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-.my-button{
+
+.mobile_menu {
+    display: none;
+}
+
+.desktop_menu {
+    display: block;
+    
+}
+
+
+.burger_menu {
+    display: none;
+}
+
+.my-button {
     padding: 10px 25px;
     border-style: solid;
     border-width: 1px;
     margin-left: 20px;
 }
-.my-button:hover{
+
+.my-button:hover {
     color: black;
     background-color: rgb(43, 236, 47);
 }
@@ -92,34 +110,66 @@ a{
 } */
 
 @media(max-width:900px) {
-    header{
-        display:block;
+    header {
+        display: block;
         text-align: center;
+        padding: 20px 20px;
     }
-    
-    .container{
-        padding-top: 300px;
-    
+
+    .container {
+        /* padding-top: 300px; */
+
     }
-    
-    nav a{
+
+    nav {
+        display: none;
+    }
+
+    header .desktop_menu{
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+    .mobile_menu_bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .burger_menu {
+        color: white;
+
+    }
+
+    .burger_menu {
+        display: block;
+    }
+
+    .burger_nav a {
         display: block;
 
     }
-    .logo{
+
+    .logo {
         padding: 30px 0px;
     }
-    .my-button{
+
+    .my-button {
         margin-left: 0;
     }
-    .card img {
-        
-    }
+
+    .card img {}
+
     .card {
         width: 45%;
-         margin-bottom: 80px; 
+        margin-bottom: 80px;
     }
-    .hide-desktop-only{
+
+    .hide-desktop-only {
         display: block;
     }
 
